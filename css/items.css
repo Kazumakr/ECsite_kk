@@ -264,6 +264,12 @@ footer {
 		margin-bottom: 50px;
 	}
 
+	.item img {
+		height: 200px;
+		width: 100%;
+		object-fit: cover;
+	}
+
 	nav {
 		display: flex;
 		flex-direction: column;
