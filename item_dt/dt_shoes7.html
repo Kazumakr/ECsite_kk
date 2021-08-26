@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>item detail page</title>
+		<link rel="stylesheet" href="../css/item_detail.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<header id="header">
+			<div class="header-logo-menu">
+				<div class="drawer">
+					<input id="nav-input" type="checkbox" class="nav-unshown" />
+					<label id="nav-open" for="nav-input"><span></span></label>
+					<label class="nav-unshown" id="nav-close" for="nav-input"></label>
+					<!-- menu -->
+					<nav class="" id="nav-content">
+						<ul class="">
+							<li><a href="../outer.html">Outer</a></li>
+							<li><a href="../tops.html">Tops</a></li>
+							<li><a href="../bottoms.html">Bottoms</a></li>
+							<li><a href="../shoes.html">Shoes</a></li>
+							<li><a href="../accessories.html">Accessories</a></li>
+							<li><a href="../items.html">All</a></li>
+							<li><a href="../home.html">Home</a></li>
+							<li><a href="#">Login</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="site-title">
+					<a href="../home.html"
+						><img src="../img/Kazuma Kuramoto.svg" alt="KazumaKuramoto"
+					/></a>
+				</div>
+				<i class="fa fa-shopping-cart"></i>
+			</div>
+			<nav class="wrapper" id="header-menu">
+				<ul class="menu">
+					<li><a href="../outer.html">Outer</a></li>
+					<li><a href="../tops.html">Tops</a></li>
+					<li><a href="../bottoms.html">Bottoms</a></li>
+					<li><a href="../shoes.html">Shoes</a></li>
+					<li><a href="../accessories.html">Accessories</a></li>
+					<li><a href="../items.html">All</a></li>
+				</ul>
+				<ul class="login">
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Cart</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div id="item" class="wrapper">
+				<div class="item-img">
+					<img src="../img/items/shoes7.jpeg" alt="item1" />
+				</div>
+
+				<div class="item-info">
+					<h1 class="item-title">Shoes</h1>
+					<p>this is a description about item</p>
+					<p>$100 +tax</p>
+
+					<table class="order-table">
+						<thead>
+							<tr>
+								<th class="color">Color</th>
+								<th class="size">Size</th>
+								<th class="quantity">Quantity</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Burgundy</td>
+								<td>S</td>
+								<td>
+									<select name="quantity">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>Burgundy</td>
+								<td>M</td>
+								<td>
+									<select name="quantity">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>Burgundy</td>
+								<td>L</td>
+								<td>
+									<select name="quantity">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<a class="add-btn" href="#">ADD TO CART</a>
+
+					<!-- <table class="size-chart">
+						<thead>
+							<tr>
+								<th class="size">Size</th>
+								<th class="chest">Chest</th>
+								<th class="weist">Weist</th>
+								<th class="height">Height</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>S</th>
+								<td>99~99</td>
+								<td>99~99</td>
+								<td>99~99</td>
+							</tr>
+								<th>M</th>
+								<td>99~99</td>
+								<td>99~99</td>
+								<td>99~99</td>
+							</tr>
+								<th>L</th>
+								<td>99~99</td>
+								<td>99~99</td>
+								<td>99~99</td>
+							</tr>
+						</tbody>
+					</table> -->
+				</div>
+			</div>
+		</main>
+		<footer id="footer">
+			<nav class="footer-wrapper">
+				<ul class="social-links">
+					<li>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</li>
+				</ul>
+			</nav>
+			<div class="row">
+				<p class="copyright">&copy;Kazuma Kuramoto</p>
+			</div>
+		</footer>
+	</body>
+</html>
