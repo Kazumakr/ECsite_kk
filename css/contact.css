@@ -5,7 +5,7 @@ body {
 }
 main {
 	margin-bottom: 50px;
-	height: 500px;
+	height: 520px;
 }
 
 img {
@@ -244,5 +244,8 @@ footer {
 	}
 	nav .social-links {
 		padding: 0;
+	}
+	footer {
+		margin-top: 80px;
 	}
 }
