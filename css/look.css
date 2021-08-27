@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-	color: #2d2d2d;
+	color: #333;
 	font-family: Arial, Helvetica, sans-serif;
 }
 main {
@@ -16,14 +16,8 @@ ul {
 }
 
 a {
-	color: #2d2d2d;
+	color: #333;
 	text-decoration: none;
-}
-
-.container {
-	max-width: 1000px;
-	margin: 0 auto;
-	padding: 0 18px;
 }
 
 nav {
@@ -45,17 +39,6 @@ h3 {
 
 .site-title a {
 	display: block;
-}
-
-.section-title {
-	font-size: 1.5rem;
-	font-weight: normal;
-	margin-bottom: 25px;
-}
-
-.section-title-en {
-	display: inline-block;
-	margin-bottom: 25px;
 }
 
 .wrapper {
@@ -86,7 +69,7 @@ nav .menu li {
 nav .login li {
 	margin: 0 15px;
 }
-.wrap {
+.container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -95,11 +78,6 @@ nav .login li {
 .item {
 	width: 45%;
 	margin-bottom: 40px;
-}
-
-.footer-wrapper {
-	display: flex;
-	justify-content: center;
 }
 
 .fa {
@@ -138,6 +116,11 @@ footer {
 #footer .copyright {
 	font-size: 0.8rem;
 	text-align: center;
+}
+
+.footer-wrapper {
+	display: flex;
+	justify-content: center;
 }
 
 .drawer {

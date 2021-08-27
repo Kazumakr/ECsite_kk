@@ -91,11 +91,6 @@ nav .login li {
 	object-fit: cover;
 }
 
-.footer-wrapper {
-	display: flex;
-	justify-content: center;
-}
-
 .fa {
 	padding: 15px;
 	font-size: 30px;
@@ -136,6 +131,11 @@ footer {
 #footer .copyright {
 	font-size: 0.8rem;
 	text-align: center;
+}
+
+.footer-wrapper {
+	display: flex;
+	justify-content: center;
 }
 
 .drawer {

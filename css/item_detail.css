@@ -152,6 +152,7 @@ nav .login li {
 	width: 16%;
 }
 
+/*
 #item .item-info .size-chart .chest,
 #item .item-info .size-chart .weist,
 #item .item-info .size-chart .height {
@@ -170,6 +171,8 @@ nav .login li {
 	border-bottom: solid 1px #333;
 	text-align: center;
 }
+
+*/
 
 .footer-wrapper {
 	display: flex;
