@@ -1,42 +1,31 @@
-1.What is this project about?
--This site is EC site of my own select shop.
+# EC site KK
 
-2.What am I using this project for?
--html,css fontawesome
--vscode
--netrify
+# 1.What is this project about?
 
-3.Why did I decide to make this project?
--These days we have market platform, but we need to pay service charge to sell something. So I decided to make my own EC site.
+- This site is EC site of my own select shop.
 
-4.What reference did you use?
--stackoverflow
--Qiita
+# 2.What is the purpose of this project?
 
-5.What library/technology/api I used
--nothing yet
+To sell selected items.
 
-6.What did I learn? What was the most challenging part?
--Making responsiveness design
--Hamberger menu without JavaScript
+# 3.Why I decided to make this project
 
-page structure
--Home page
--item page
--item detail page
--cart
--login
--contact
--about
+These days we have market platform, but we need to pay service charge to sell something. So I decided to make my own EC site.
 
-function
--add
--delete
--login
-=> purchase history
-=> favorite list
-=> customer info
+# 4.What reference I used
 
-Frontend
--html
--css
+- stackoverflow
+- Qiita
+- W3School
+
+# 5.What library/technology/api I used
+
+- html
+- css
+- fontawesome
+
+# 6.What I learned / What was the most challenging part?
+
+- To make responsiveness design
+- To create Hamburger menu without JavaScript
+- To use Flexbox
