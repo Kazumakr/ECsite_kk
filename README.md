@@ -2,7 +2,7 @@
 
 # 1.What is this project about?
 
-- This site is EC site of my own select shop.
+This site is EC site of my own select shop.
 
 # 2.What is the purpose of this project?
 
